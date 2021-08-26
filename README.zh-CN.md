@@ -1,6 +1,6 @@
 # Whitee
 
-[![language](https://img.shields.io/badge/语言-C++-f34b7d.svg)](https://www.cplusplus.com/)[![source](https://img.shields.io/badge/源语言-SysY-yellow.svg)](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf)![assembly](https://img.shields.io/badge/目标汇编-ARM--v7a-blue.svg)![platform](https://img.shields.io/badge/平台-Linux_|_Windows-lightgrey.svg)
+[![language](https://img.shields.io/badge/语言-C++-f34b7d.svg)](https://www.cplusplus.com/) [![source](https://img.shields.io/badge/源语言-SysY-yellow.svg)](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf) [![assembly](https://img.shields.io/badge/目标汇编-ARM--v7a-blue.svg)](https://developer.arm.com/) [![platform](https://img.shields.io/badge/平台-Linux_|_Windows-lightgrey.svg)](https://github.com/Forever518/Whitee)
 
 Whitee是一款使用C++17开发的小型编译器，能够将SysY语言编译为ARM-v7a汇编。
 
@@ -70,7 +70,7 @@ $ ./whitee [-S] [-o] [-h | --help] [-d | --debug <level>] [-c | --check <level>]
   * 变量冲突图（以IR中id作为标识）：`ir_conflict_graph.txt`
   * 寄存器分配结果（以IR中id作为标识）：`ir_register_alloc.txt`
   * 每一遍优化后IR：`optimize`目录。
-  
+
 * `-c`和`--check`选项用于开启IR关系的检查，能够帮助开发者锁定到更多问题。
 
 * `-O`选项将设置优化等级。
@@ -78,13 +78,13 @@ $ ./whitee [-S] [-o] [-h | --help] [-d | --debug <level>] [-c | --check <level>]
   * `-O1`：追加死代码删除、常量折叠、汇编窥孔优化等。
   * `-O2`：追加乘除优化、函数内联等。
   * `-O3`：追加局部数组传播、常量数组全局化等。
-  
+
 * 目标代码所在目录、调试信息目录不存在时将会被创建。
 
 
 ## 架构
 
-![architecture-CN](image/architecture-CN.png)
+<img src='image/architecture-CN.png' width='65%' align='middle'>
 
 ### 前端优化
 

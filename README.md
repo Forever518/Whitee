@@ -1,6 +1,6 @@
 # Whitee
 
-[![readme.zh-CN](https://img.shields.io/badge/readme-中文-g.svg)](README.zh-CN.md)[![language](https://img.shields.io/badge/language-C++-f34b7d.svg)](https://www.cplusplus.com/)[![source](https://img.shields.io/badge/source_language-SysY-yellow.svg)](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf)![assembly](https://img.shields.io/badge/target_assembly-ARM--v7a-blue.svg)![platform](https://img.shields.io/badge/platform-Linux_|_Windows-lightgrey.svg)
+[![readme.zh-CN](https://img.shields.io/badge/readme-中文-g.svg)](README.zh-CN.md) [![language](https://img.shields.io/badge/language-C++-f34b7d.svg)](https://www.cplusplus.com/) [![source](https://img.shields.io/badge/source_language-SysY-yellow.svg)](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf) [![assembly](https://img.shields.io/badge/target_assembly-ARM--v7a-blue.svg)](https://developer.arm.com/) [![platform](https://img.shields.io/badge/platform-Linux_|_Windows-lightgrey.svg)](https://github.com/Forever518/Whitee)
 
 Whitee is a tiny compiler written in C++17, which translates SysY language into ARM-v7a assembly.
 
@@ -18,7 +18,7 @@ Whitee is the final work of team *Good Morning! Whitegivers* with a wild card in
 
 * **SysY language**: a subset of C language, whose source code is usually stored in a file with the extension *sy*. Only one *main* function is allowed in SysY, which supports global variable declaration, constant declaration, other function definitions, etc. For more details see [SysY-Language-Definition.pdf](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf).
 * **SysY runtime library**: the library provides a series of I/O functions and timing functions. For more details see [SysY-Runtime-Library.pdf](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BA%93.pdf).
-*  **target platform**: Raspberry 4B with Raspberry Pi OS(Raspbian GNU/Linux 10).
+* **target platform**: Raspberry 4B with Raspberry Pi OS(Raspbian GNU/Linux 10).
 
 ## Install
 
@@ -81,7 +81,7 @@ $ ./whitee [-S] [-o] [-h | --help] [-d | --debug <level>] [-c | --check <level>]
 
 ## Architecture
 
-![architecture-CN](image/architecture.png)
+<img src='image/architecture.png' width='65%' align='middle'>
 
 ### front-end optimize
 
