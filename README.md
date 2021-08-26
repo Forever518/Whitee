@@ -119,7 +119,7 @@ $ ./whitee [-S] [-o] [-h | --help] [-d | --debug <level>] [-c | --check <level>]
 
 ## Contributing
 
-All 4 members of team *Good Morning! Whitegivers*。
+All 4 members of team *Good Morning! Whitegivers*.
 
 * [Forever518](https://github.com/Forever518)
 * [T-Muller](https://github.com/T-Muller)
