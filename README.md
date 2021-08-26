@@ -11,6 +11,7 @@ Whitee is a tiny compiler written in C++17, which translates SysY language into 
 * [Usage](#Usage)
 * [Architecture](#Architecture)
 * [Contributing](#Contributing)
+* [License](#License)
 
 ## Background
 
@@ -124,3 +125,7 @@ All 4 members of team *Good Morning! Whitegivers*。
 * [T-Muller](https://github.com/T-Muller)
 * [willipwk](https://github.com/willipwk)
 * [violet73](https://github.com/violet73)
+
+## License
+
+[GPL-3.0 License © Dihao Fan, Zhenwei Liu, Weikun Peng, Kelun Lei](LICENSE)

@@ -11,6 +11,7 @@ Whitee是一款使用C++17开发的小型编译器，能够将SysY语言编译�
 * [使用说明](#使用说明)
 * [架构](#架构)
 * [贡献者](#贡献者)
+* [许可证](#许可证)
 
 ## 背景
 
@@ -127,3 +128,7 @@ $ ./whitee [-S] [-o] [-h | --help] [-d | --debug <level>] [-c | --check <level>]
 * [T-Muller](https://github.com/T-Muller)
 * [willipwk](https://github.com/willipwk)
 * [violet73](https://github.com/violet73)
+
+## 许可证
+
+[GPL-3.0 License © Dihao Fan, Zhenwei Liu, Weikun Peng, Kelun Lei](LICENSE)
