@@ -19,7 +19,7 @@ Whitee是一款使用C++17开发的小型编译器，能够将SysY语言编译�
 
 * **SysY语言**：C语言的一个子集，源码通常存储在扩展名为sy的文件中，仅允许出现一个名为main的函数。SysY支持全局变量声明、常量声明和其他函数定义等，详见[SysY语言定义.pdf](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf)。
 * **SysY运行时库**：提供一系列的I/O函数、计时函数等，详见[SysY运行时库.pdf](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BA%93.pdf)。
-* **目标平台**：Raspberry Pi OS（Raspbian GNU/Linux 10）操作系统的Raspberry 4B设备。
+* **目标平台**：Raspberry Pi OS（Raspbian GNU/Linux 10）操作系统和ARM Cortex-A72 CPU的Raspberry 4B设备。
 
 ## 安装
 
