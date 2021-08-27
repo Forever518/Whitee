@@ -113,8 +113,8 @@ enum ResultType {
 class Value : public enable_shared_from_this<Value> {
 private:
     static unsigned int valueId;
-public:
 
+public:
     unsigned int id;
     ValueType valueType;
     unordered_set<shared_ptr<Value>> users;

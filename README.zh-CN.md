@@ -1,6 +1,6 @@
 # Whitee
 
-[![language](https://img.shields.io/badge/语言-C++-f34b7d.svg)](https://www.cplusplus.com/) [![source](https://img.shields.io/badge/源语言-SysY-yellow.svg)](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf) [![assembly](https://img.shields.io/badge/目标汇编-ARM--v7a-blue.svg)](https://developer.arm.com/) [![platform](https://img.shields.io/badge/平台-Linux_|_Windows-lightgrey.svg)](https://github.com/Forever518/Whitee)
+[![license](https://img.shields.io/badge/许可证-GPL--3.0-red.svg)](LICENSE) [![language](https://img.shields.io/badge/语言-C++-f34b7d.svg)](https://www.cplusplus.com/) [![source](https://img.shields.io/badge/源语言-SysY-yellow.svg)](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf) [![assembly](https://img.shields.io/badge/目标汇编-ARM--v7a-blue.svg)](https://developer.arm.com/) [![platform](https://img.shields.io/badge/平台-Linux_|_Windows-lightgrey.svg)](https://github.com/Forever518/Whitee)
 
 Whitee是一款使用C++17开发的小型编译器，能够将SysY语言编译为ARM-v7a汇编。
 
