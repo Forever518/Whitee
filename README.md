@@ -19,7 +19,7 @@ Whitee is the final work of team *Good Morning! Whitegivers* with a wild card in
 
 * **SysY language**: a subset of C language, whose source code is usually stored in a file with the extension *sy*. Only one *main* function is allowed in SysY, which supports global variable declaration, constant declaration, other function definitions, etc. For more details see [SysY-Language-Definition.pdf](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%AF%AD%E8%A8%80%E5%AE%9A%E4%B9%89.pdf).
 * **SysY runtime library**: the library provides a series of I/O functions and timing functions. For more details see [SysY-Runtime-Library.pdf](https://gitlab.eduxiji.net/nscscc/compiler2021/-/blob/master/SysY%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BA%93.pdf).
-* **target platform**: Raspberry 4B with Raspberry Pi OS(Raspbian GNU/Linux 10).
+* **target platform**: Raspberry 4B with Raspberry Pi OS(Raspbian GNU/Linux 10), CPU: ARM Cortex-A72.
 
 ## Install
 
