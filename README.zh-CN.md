@@ -63,7 +63,7 @@ $ ./whitee [-S] [-o] [-h | --help] [-d | --debug <level>] [-c | --check <level>]
 ### 补充说明
 
 * `-d`和`--debug`选项在不设置输出路径时，将把信息输出到与目标代码同目录下的`whitee-debug-<target-file>`路径，各信息输出目标文件为：
-* IR：`ir.txt`
+  * IR：`ir.txt`
   * AST：`ast.txt`
   * 最终IR：`ir_final.txt`
   * 优化后IR：`ir_optimize.txt`
